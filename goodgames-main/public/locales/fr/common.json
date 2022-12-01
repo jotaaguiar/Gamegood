@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "partial_title": "| GoodGames"
+  },
+  "404": {
+    "title": "Erreur 404",
+    "description": "Oups, il semble que vous essayez d'accéder à un jeu ou à une page qui n'existe pas.",
+    "button": "Retour à l'accueil"
+  },
+  "500": {
+    "title": "Erreur 500",
+    "description": "Oups, il semble que le site ait un petit problème. Pas d'inquiétude, le développeur sera puni en conséquence.",
+    "bouton": "Retour à l'accueil"
+  },
+  "nav": {
+    "link": {
+      "browse": "Parcourir"
+    },
+    "search": {
+      "placeholder": "Rechercher"
+    },
+    "toggle_locale": "Changer de langue",
+    "toggle_french": "Passer au français",
+    "toggle_english": "Passer à l'anglais",
+    "button": "Français"
+  },
+  "home": {
+    "meta": {
+      "title": "GoodGames",
+      "description": "Découvrez de nouveaux jeux, recherchez tous les jeux que vous voulez et voyez les jeux les plus appréciés de l'API RAWG."
+    },
+    "title": "Découvrez de nouveaux jeux",
+    "subtitle": "Recherchez le jeu que vous voulez ou consultez les jeux populaires",
+    "search": {
+      "placeholder": "Rechercher des jeux"
+    },
+    "popular_games": {
+      "title": "Jeux populaires",
+      "subtitle": "Les jeux les plus appréciés de tous les temps",
+      "button": "Plus de jeux"
+    }
+  },
+  "browse": {
+    "meta": {
+      "title": "Jeux populaires | GoodGames",
+      "description": "Parcourez les 50 jeux les plus appréciés de l'API RAWG."
+    },
+    "title": "Jeux populaires",
+    "subtitle": "Parcourez les 50 jeux les plus appréciés selon RAWG.io",
+    "loading": "Loading..."
+  },
+  "game_details": {
+    "screenshots": {
+      "title": "Captures d'écran"
+    }
+  },
+  "search": {
+    "title": " Résultats pour : ",
+    "loading": "Chargement..."
+  }
+}

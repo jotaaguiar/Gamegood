@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "partial_title": "| GoodGames"
+  },
+  "404": {
+    "title": "404 error",
+    "description": "Oops, looks like you're trying to access a game or a page that doesn't exist.",
+    "button": "Back to home"
+  },
+  "500": {
+    "title": "Error 500",
+    "description": "Oops, looks like the site has a little problem. No worries, the developer will be punished accordingly.",
+    "button": "Back to home"
+  },
+  "nav": {
+    "link": {
+      "browse": "Browse",
+      "library": "Library"
+    },
+    "search": {
+      "placeholder": "Search games"
+    },
+    "toggle_locale": "Change language",
+    "toggle_french": "Switch to French",
+    "toggle_english": "Switch to English",
+    "button": "English"
+  },
+  "home": {
+    "meta": {
+      "title": "GoodGames",
+      "description": "Discover new games, search any game you want, and see the most appreciated games from the RAWG API."
+    },
+    "title": "Discover new games",
+    "subtitle": "Search any game you want or browse popular games",
+    "search": {
+      "placeholder": "Search games"
+    },
+    "popular_games": {
+      "title": "Popular Games",
+      "subtitle": "The most appreciated games of all time.",
+      "button": "More games"
+    }
+  },
+  "browse": {
+    "meta": {
+      "title": "Popular Games | GoodGames",
+      "description": "Browse the 50 most appreciated games from the RAWG API."
+    },
+    "title": "Popular Games",
+    "subtitle": "Browse the 50 most appreciated games according to RAWG.io",
+    "loading": "Loading..."
+  },
+  "game_details": {
+    "screenshots": {
+      "title": "Screenshots"
+    }
+  },
+  "search": {
+    "title": "Results for:",
+    "loading": "Loading..."
+  }
+}

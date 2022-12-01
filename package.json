@@ -1,0 +1,41 @@
+{
+  "name": "goodgames",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --quiet",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "check": "npx tsc --noEmit && npx eslint . && npx prettier --write ."
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.3.4",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "framer-motion": "^6.5.1",
+    "next": "12.3.1",
+    "next-i18next": "^12.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "swr": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.23",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "prettier": "^2.7.1",
+    "prettier-eslint": "^15.0.1",
+    "typescript": "4.8.4"
+  }
+}
