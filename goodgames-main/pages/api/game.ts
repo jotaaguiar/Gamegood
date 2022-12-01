@@ -5,12 +5,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
   const { id } = req.query;
 
   const gameResponse = await fetch(
-    `https://api.rawg.io/api/games/${id}?key=${process.env.RAWG_API_KEY}`,
+    `https://api.rawg.io/api/games/${id}?key=f639e4e2821042c19bbec9db70138a27}`,
   );
   const game = await gameResponse.json();
 
   const screenshotsResponse = await fetch(
-    `https://api.rawg.io/api/games/${id}/screenshots?key=${process.env.RAWG_API_KEY}`,
+    `https://api.rawg.io/api/games/${id}/screenshots?key=f639e4e2821042c19bbec9db70138a27}`,
   );
   const screenshotsRaw = await screenshotsResponse.json();
 
